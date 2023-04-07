@@ -1,0 +1,18 @@
+
+0) TEST DATA: [
+   ["English", ["Home", "FAQ", "Apps", "API", "Protocol"] ]
+   ["Русский", ["Главная", "FAQ", "Приложения", "API", "Протокол"] ]
+   ]
+
+1) TITLE: Для локали TEST_DATA[0] на сайте https://telegram.org/ должен отображаться список кнопок TEST_DATA[1]
+2) PRIORITY / SEVERITY - BLOCKER
+
+
+4) STEPS
+ - Открыть браузер Chrome
+ - Открыть сайт https://telegram.org/
+ - Кликнуть на иконку языка
+ - Выбрать локаль TEST_Data[0]
+
+5) EXPECTED RESULT
+ - На сайте для выбранной локали должен отображаться список кнопок TEST_DATA[1]
